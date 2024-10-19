@@ -1,0 +1,17 @@
+noise_schedule: 'linear'        # (str) The schedule for noise generating: [linear, linear-var, cosine, binomial]
+sampling_noise: False           # (bool) Whether to use sampling noise
+sampling_steps: 0               # (int) Steps of the forward process during inference
+reweight: True                  # (bool) Assign different weight to different timestep or not
+mean_type: 'x0'                 # (str) MeanType for diffusion: [x0, eps]
+steps: 5                        # (int) Diffusion steps
+history_num_per_term: 10        # (int) The number of history items needed to calculate loss weight
+beta_fixed: True                # (bool) Whether to fix the variance of the first step to prevent overfitting
+
+dims_dnn: [300]                 # (list of int) The dims for the DNN
+embedding_size: 10              # (int) Timestep embedding size
+mlp_act_func: 'tanh'            # (str) Activation function for MLP
+time-aware: False               # (bool) T-DiffRec or not
+w_max: 1                        # (int) The upper bound of the time-aware interaction weight
+w_min: 0.1                      # (int) The lower bound of the time-aware interaction weight
+
+benchmark_filename: [train, valid, test] #spilit dataset to three plots

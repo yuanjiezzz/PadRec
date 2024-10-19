@@ -1,0 +1,23 @@
+yelp2022
+The number of users: 84067
+Average actions of users: 1.1895415506863656
+The number of items: 46193
+Average actions of items: 2.164877034984413
+The number of inters: 100000
+The sparsity of the dataset: 99.99742487519589%
+
+epinions
+The number of users: 116260
+Average actions of users: 1.6211766729743677
+The number of items: 41270
+Average actions of items: 4.567060020838887
+The number of inters: 188478
+The sparsity of the dataset: 99.99607177932403%
+
+amzon-books
+The number of users: 756053
+Average actions of users: 1.3226603461137594
+The number of items: 458598
+Average actions of items: 2.1805637629552743
+The number of inters: 1000000
+The sparsity of the dataset: 99.99971158648823%
